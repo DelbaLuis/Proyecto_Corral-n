@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif, monospace;
 }
 
 
@@ -56,7 +57,34 @@ section > div > img{
     width: 100%;
     height: 100%;
 }
+.titulo_portada{
+    display: none;
+}
+.section_numero2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.section_numero2 > h4{
+    width: 100%;
+    font-size: 20px;
+    color: burlywood;
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor_portada_familia{
+ width: 50%;
+}
+.contenedor_parrafo_sobrenosotros{
+    width: 40%;
+    font-size: 20px;
+    color: burlywood;
+    font-weight: bold;
+    text-align: center;
+
+}
 @media (min-width:745px) {
     .menu_hamburguesa{
         display: none;
@@ -90,6 +118,17 @@ section > div > img{
     section > div > img{
         width: 100%;
         height: 100%;
+    }
+    .titulo_portada{
+        display: initial;
+        position: relative;
+        bottom: 50;
+    }
+    .titulo_portada > p {
+        font-size: 20px;
+        color: burlywood;
+        font-weight: bold;
+        text-align: center;
     }
 
 }
