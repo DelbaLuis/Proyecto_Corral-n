@@ -61,9 +61,19 @@ li a:hover {
     opacity: 0.7;
 }
 
-section{
+
+section .portada_img{
     height: 250px;
     width: 100%;
+}
+
+.portada_img{
+    width:100%;
+    height:250px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image: url("../img/WhatsApp\ Image\ 2022-08-25\ at\ 9.07.53\ PM.jpeg");
 }
 section > .img_familia_mobile{
     width: 100%;
@@ -73,21 +83,77 @@ section > .img_familia_mobile{
     display: none;
 }
 .section_numero2{
-    width: 95%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 15px;
 }
-
-.contenedor_portada_familia{
+.contenedor_sobrenosotros{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(255, 238, 2);
+    color: rgba(255, 0, 0, 0.897);
+    
+    
+}
+.section_numero2 > div> h4{
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.897);
+    font-weight: bold;
+    text-align: center;
+}
+/* .contenedor_portada_familia{
  width: 250px;
  height: 250px;
-}
+} */
 .contenedor_portada_familia > .familia{
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+.contenedor_parrafo_sobrenosotros{
+
+    /* width: 45%; */
+    color: #444;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    
+}
+.nuestros_servicios{
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.predefinido_subtitulos{
+    background-color: rgb(255, 238, 2);
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.897);
+    font-weight: bold;
+    text-align: center;
+}
+.nuestros_servicios--titulo{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(255, 238, 2);
+    color: rgba(255, 0, 0, 0.897);
+}
+.nuestros_servicios--mensaje{
+text-align: center;
+}
+.nuestros_servicios--mensaje > h6{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    
 }
 
 
@@ -117,7 +183,7 @@ section > .img_familia_mobile{
         display:flex;
         align-items: center;  
     }
-    section{
+    section .portada_img{
         height: 700px;
         width: 100%;
     }
