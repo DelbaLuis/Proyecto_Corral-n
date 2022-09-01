@@ -7,7 +7,6 @@
     border: none;
     text-decoration: none;
     transition: all .2s linear;
-    text-transform: capitalize;
 }
 
 html {
@@ -23,7 +22,9 @@ html {
 }
 
 div>.color_ubicacion {
-    color: rgba(255, 0, 0, 0.897);
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .cotización {
@@ -222,7 +223,84 @@ section>.img_familia_mobile {
     font-size: 1.5rem;
 
 }
+/*                                              Galeria productosssssssssssssssssssss */
+.galeria_productos {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
 
+.galeria_productos .galeria_productos--titulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.galeria_productos .galeria_productos--product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    justify-content: center;
+}
+
+.galeria_productos .galeria_productos--product .product {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #ffff;
+
+}
+
+.galeria_productos .galeria_productos--product .product:hover {
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+
+.galeria_productos .galeria_productos--product .product img {
+    height: 14rem;
+}
+
+.galeria_productos .galeria_productos--product .product:hover img {
+    transform: scale(.9);
+}
+
+.galeria_productos .galeria_productos--product .product h6 {
+    padding: .5rem auto;
+    font-size: 2rem;
+    color: #444
+}
+footer{
+    padding: 10px 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: stretch;
+    height: 150px;
+    background-color: rgb(255, 238, 2);
+}
+.footer >div > .color_ubicacion{
+    font-size: 15px;
+}
+.footer > .container__titulo_telefono-correo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer > div > h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgba(255, 0, 0, 0.897);
+}
+.footer > div > .telefono-correo{
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+}
 
 /*                                              MEDIAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 @media (min-width:745px) {
