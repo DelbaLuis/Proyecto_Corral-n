@@ -35,7 +35,7 @@ div>.color_ubicacion {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.897);
+    background-color: #FA3C01;
     height: 80px;
 }
 
@@ -72,6 +72,17 @@ a {
 li a:hover {
     opacity: 0.7;
 }
+
+.horarios_pag{
+    color: rgb(255, 238, 2);
+    background-color: #FA3C01;
+    text-align: center;
+    margin: 20px 25px 20px 25px;
+    border-radius: 20px;
+    height: 350px;
+    font-size: 25px;
+}
+
 /* Estilos para el ícono del Menú */
 .icono-menu{
     margin: 40px 50px;
@@ -87,8 +98,8 @@ li a:hover {
 
 /* Estilos para el contenedor del Menú */
 .cont-menu{
-    background-color: rgba(255, 0, 0, 0.897);
-    box-shadow: 2px 0px 5px 2px rgba(255, 0, 0, 0.897);
+    background-color: #FA3C01;
+    box-shadow: 2px 0px 5px 2px #FA3C01;
     width: 100%;
     height: 40vh;
     position: absolute;
@@ -160,14 +171,14 @@ section>.img_familia_mobile {
     text-transform: uppercase;
     text-align: center;
     background-color: rgb(255, 238, 2);
-    color: rgba(255, 0, 0, 0.897);
+    color: #FA3C01;
 
 
 }
 
 .section_numero2>div>h4 {
     font-size: 25px;
-    color: rgba(255, 0, 0, 0.897);
+    color: #FA3C01;
     font-weight: bold;
     text-align: center;
 }
@@ -199,7 +210,7 @@ section>.img_familia_mobile {
 .predefinido_subtitulos {
     background-color: rgb(255, 238, 2);
     font-size: 20px;
-    color: rgba(255, 0, 0, 0.897);
+    color: #FA3C01;
     font-weight: bold;
     text-align: center;
 }
@@ -211,7 +222,7 @@ section>.img_familia_mobile {
     text-transform: uppercase;
     text-align: center;
     background-color: rgb(255, 238, 2);
-    color: rgba(255, 0, 0, 0.897);
+    color: #FA3C01;
 }
 
 .nuestros_servicios--mensaje {
@@ -270,6 +281,7 @@ section>.img_familia_mobile {
     font-size: 2rem;
     color: #444
 }
+                        /* // footerrrrrrrrrrrrrrrrrrrrrrrrr // */
 footer{
     padding: 10px 0;
 }
@@ -294,12 +306,28 @@ footer{
 .footer > div > h3{
     font-size: 25px;
     font-weight: 800;
-    color: rgba(255, 0, 0, 0.897);
+    color: #FA3C01;
 }
 .footer > div > .telefono-correo{
     font-size: 15px;
     font-weight: 700;
     color: #222;
+}
+
+.footer > div > a.footer_ubicacion{
+    width: 30%;
+    padding-left: 20px;
+}
+
+.footer > .footer_titulo--correo{
+    width: auto;
+
+}
+
+.footer > .footer_redes{
+    width: 30%;
+    text-align: end;
+    padding-right: 20px;
 }
 
 /*                                              MEDIAAAAAAAAAAAAAAAAAAAAAAAAAAA */
@@ -339,7 +367,15 @@ footer{
         color: rgb(255, 238, 2);
         background-color: rgb(255, 238, 2);
     }
-
+    .horarios_pag{
+        background-color: #FA3C01;
+        text-align: center;
+        margin: 20px 25px 20px 25px;
+        border-radius: 30px;
+        height: 500px;
+        font-size: 50px;
+    }
+    
     .cotización {
         display: initial;
         width: 45%;
@@ -347,15 +383,11 @@ footer{
 
     .titulo_menu {
         display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.897);
+    background-color: #FA3C01;
     height: 100px;
     }
-
-    /* a{
-        width: 40%;
-    } */
 
     .active {
         transform: none;
@@ -423,7 +455,7 @@ footer{
     .section_numero2>div>h4 {
 
         font-size: 60px;
-        color: rgba(255, 0, 0, 0.897);
+        color: #FA3C01;
         font-weight: bold;
         text-align: center;
 
@@ -464,7 +496,7 @@ footer{
     .predefinido_subtitulos {
         background-color: rgb(255, 238, 2);
         font-size: 60px;
-        color: rgba(255, 0, 0, 0.897);
+        color: #FA3C01;
         font-weight: bold;
         text-align: center;
     }
@@ -476,7 +508,7 @@ footer{
         text-transform: uppercase;
         text-align: center;
         background-color: rgb(255, 238, 2);
-        color: rgba(255, 0, 0, 0.897);
+        color: #FA3C01;
     }
 
     .nuestros_servicios--mensaje {
@@ -535,5 +567,31 @@ footer{
         color: #444
     }
 
+    .footer{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-around;
+        align-content: stretch;
+        height: 150px;
+        background-color: rgb(255, 238, 2);
+    }
+
+    .footer > div > a.footer_ubicacion{
+     
+        width: 30%;
+        padding-left: 20px;
+    }
+
+    .footer > .footer_titulo--correo{
+        width: 33%;
+
+    }
+
+    .footer > .footer_redes{
+        width: 20%;
+        text-align: end;
+        padding-right: 20px;
+    }
 
 }
