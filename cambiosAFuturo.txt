@@ -1,6 +1,2 @@
-1- borrar section motosierras, check
-2 agregar nuevos alimentos de perro , nueva seccion de harinas y alimentos mascotas check
-3- footer en version web hacerlo de forma horizontal, y mobile vertical, check
-4-#FA3C01 remplazar el rojo x ese color <<<<<<<<<<< check
-5- cambiar hacer una cotizacion por horarios , check
+
 
