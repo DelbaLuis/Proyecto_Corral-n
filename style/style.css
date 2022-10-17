@@ -595,3 +595,10 @@ footer{
     }
 
 }
+.developers {
+    display: flex;
+    align-content: stretch;
+    background-color: black;
+    font-size: 15px;
+    padding-left: 15px;;
+}
