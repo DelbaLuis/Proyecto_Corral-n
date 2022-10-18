@@ -598,7 +598,7 @@ footer{
 .developers {
     display: flex;
     align-content: stretch;
-    background-color: black;
+    background-color: #FA3C01;
     font-size: 15px;
     padding-left: 15px;;
 }
